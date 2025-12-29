@@ -11,7 +11,7 @@ git commit -m "first commit code"
 
 git branch -M main
 
-git remote add origin https://github.com/prettyyefan/IJCNN2026.git
+git remote add origin https://github.com/prettyyefan/Corn_ML.git
 
 git pull origin main --allow-unrelated-histories
 
