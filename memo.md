@@ -1,6 +1,3 @@
-# 激活虚拟环境
-.\venv\Scripts\activate 
-
 # 上传github仓库步骤
 # first 合并
 git init
@@ -19,6 +16,12 @@ git pull origin main --allow-unrelated-histories
 
 git add memo.md
 
-git commit -m "update 2025.12.17"
+git commit -m "update 2026.01.03"
 
 git push -u origin main
+
+# 激活虚拟环境
+.\venv\Scripts\activate 
+
+# To do
+python csv_finetuner.py
